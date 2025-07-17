@@ -35,6 +35,12 @@
             <span>Category</span></a>
     </li>
 
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('admin.Students.index') }}">
+            <i class="fas fa-fw fa-cog"></i>
+            <span>Students</span></a>
+    </li>
+
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"

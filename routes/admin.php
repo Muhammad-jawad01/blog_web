@@ -44,6 +44,8 @@ Route::group(
         // Route::DELETE('/user-list/{id}', [UserController::class, 'destroy'])->name('users.destroy');
         // Route::get('/user-show/{id}', [UserController::class, 'show'])->name('users.show');
 
+         Route::resource('Students', StudentsController::class)->names('Students');
+
     }
 
 );
