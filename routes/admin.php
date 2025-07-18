@@ -48,6 +48,8 @@ Route::group(
         Route::resource('products', ProductController::class)->names('product');
         Route::resource('posts', PostController::class)->names('posts');
         Route::resource('comments', CommentController::class)->names('comments');
+        Route::resource('students', StudentController::class)->names('students');
+        Route::resource('educations', EducationController::class)->names('educations');
     }
 
 );
