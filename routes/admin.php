@@ -50,6 +50,8 @@ Route::group(
         Route::resource('comments', CommentController::class)->names('comments');
         Route::resource('students', StudentController::class)->names('students');
         Route::resource('educations', EducationController::class)->names('educations');
+        Route::resource('clients', ClientController::class)->names('clients');
     }
+      
 
 );
